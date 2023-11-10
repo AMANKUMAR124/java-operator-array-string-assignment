@@ -1,0 +1,71 @@
+1.LIST THE OPERATORS IN JAVA?
+ANS:: 
+     a.ARITHMETIC OPERATOR 
+     b.relational operator
+     c.logical operator
+     d.conditional operator
+     e.assignment Operator
+     f.Unary Operator
+     g.bitwise operator
+2.EXPLAIN ABOUT INCREMENT AND DECREMENT OPERATORS AND GIVEN AN EXAMPLES ?
+ANS:: there are two types of increment and decrement operator in java.
+        INCREMENT:
+        a.pre incement(++x)
+        b.post increment(x++)
+        DECREMENT::
+        a.pre decrement(--x)
+        b.post decrement(x--)
+
+3.WHAT ARE THE  CONDITIONAL OPERATOR IN JAVA?
+ANS::The conditional operator is also known as the ternary operator. This operator consists of three operands and is used to evaluate Boolean expressions.
+      
+SYNTAX:: (expression)?true:false
+
+there are three types of conditional operator in java.
+a.logical and(&&)
+b.logical or(||)
+c.logical not(!)
+
+4.WHAT ARE THE TYPES OF OPERATORS BASED ON THE NUMBER OF OPERANDS?
+ANS::
+   A. UNARY OPERATOR(1)
+   B. BINARY OPERATOR(2)
+   C.CONDITIONAL OPERATOR(3)
+5.WHAT ARE CONDITIONAL STATEMENTS AND USE OF CONDITIONAL STATEMENTS IN JAVA?
+ANS::Conditional statements in Java are the executable block of code (or branch to a specific code) dependent on certain conditions.
+ A.If statement
+B.If else statement
+C.Switch Statement
+
+
+6.WHAT IS THE SYNTAX OF IF-ELSE STATEMENT?
+ANS::if (conhition) {
+
+ 	 // blocK of code to be executed if conhition is true.
+
+} else {
+
+  	// block of code to be executed if the conhition is false.
+
+}
+
+7.WHAT ARE THREE TYPES OF ITERATIVE STATEMENTS IN JAVa?
+ANS::THERE ARE THREE TYPES OF ITERATIVE STATEMENT IN JAVA.
+A.FOR LOOP
+B.WHILE LOOP
+C.DO-WHILE LOOP
+
+8.WHAT DO YOU MEAN BY ARRAY?
+ANS::IT IS A COLLECTION OF HOMOGENEOUS data type
+=>its holds multiple valueS at the similAR MEMORY LOCATION.
+9.HOW TO CREATE AN ARRAY?
+ANS:: DEFINE DATA TYPE AND ARRAY SIZE
+    SYNTAX:: DATATYPE VARIABLE_NAME[N].
+         N=SIZE.
+
+
+10.STATE THE DIFFERENCE BETWEEN STRINGBUILDER AND STRINBUFFER IN JAVA?
+ANS:; STRINGBUFFER::StringBuffer is synchronized . It means two threads can't call the methods of StringBuffer simultaneously
+         =>StringBuffer is less efficient than StringBuilder.
+       STRINGBUILDER::StringBuilder is non-synchronized . It means two threads can call the methods of StringBuilder simultaneously.
+                     =>StringBuilder is more efficient than StringBuffer.
